@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/custom.css" />
+    <title>Conservatório Right Music</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="logo" src="./images/1.jpg" width="130" height="130" alt="">
+           
+          </div>
+          <div class="col">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link btn-warning active" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  btn-warning"  href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-warning" href="#produtos">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-warning" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <h2>Sobre nós</h2>
+            <p>
+              Missão | Proporcionar serviços na área musical, superando as
+              expectativas dos alunos, alicerçados na competência, tecnologia,
+              humanização e valorização do ensino de música.
+              <p>Visão | Ser
+              reconhecida nacional e internacionalmente como instituição de
+              referência na área de educação musical.</p> 
+              </p>
+            <p>
+              Valores | Nosso
+              relacionamento como coordenadores, professores, colaboradores e
+              alunos é transparente e baseado em responsabilidade, respeito e
+              confiança entre as partes, afim de ser um facilitador da
+              realização dos sonhos de cada um, bem como exercer
+              sustentabilidade social, cultural e econômica.
+             
+            </p>
+            <a class="btn  btn-warning">Saiba mais</a>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <img id="kids"
+              src="./images/kids.jpg"
+              alt="imagem de exemplo"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos" class="cursos">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Cursos</h2>
+
+            <div class="card">
+              <img
+                src="./images/violin.jpg"
+                alt="imagem de exemplo"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Música de Câmara</h5>
+                <p class="card-text">
+                  A música erudita também possui seu momento de execução conjunta. Execução esta que se desenvolve nas práticas de câmara e orquestra, onde o estudante se habitua no fazer musical responsivo com espaço para sua intervenção ao mesmo passo que orienta a seguir a audição de um partícipe. Desenvolva-se e cresça como musicista tocando em grupo!
+                </p>
+                <a
+                  class="btn btn-warning"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-1"
+                  >Ver Curso</a
+                >
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./images/piano.jpg"
+                alt="imagem de exemplo"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Piano Erudito</h5>
+                <p class="card-text">
+                  O programa de Piano é dividido em duas grandes áreas: erudito e popular.O programa de piano erudito se estabelece desde o início nos valores fundamentais da partitura espelhados na prática do instrumento.No popular também se estabelece uso da partitura, mas com menos protagonismo já que a Cifra possui muita importância para a consolidação da execução livre. 
+                </p>
+                <a class="btn btn-warning" href="#produto-2">Ver Curso</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./images/cello.jpg"
+                alt="imagem de exemplo"
+                class="img-fluid"
+              />
+              <div  class="card-body">
+                <h5 class="card-title">Prática de Orquestra</h5>
+                <p class="card-text">
+                  Estar em uma instituição que promove o encontro dos estudantes é muito mais do que tocar sozinho em frente a um computador. Tocamos para tocarmos juntos. Aprenda a consolidar através de experimentação e referência estética o comportamento do seu instrumento perante um agrupamento. Evolua como musicista e faça parte de nossa orquestra!
+                </p>
+                <a class="btn btn-warning" href="#produto-3">Ver Curso</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h2>Contato</h2>
+            <p>
+              Se interessou? Agende uma aula experimental!
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <form class="form">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="nome"
+                  placeholder="Digite seu nome"
+                />
+              </div>
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="email"
+                  placeholder="Digite seu e-mail"
+                />
+              </div>
+
+              <div class="input-group">
+                <textarea class="form-control" name="" rows="5"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                Agendar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Produto 1</h5>
+            <button
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h6>Confira os preços</h6>
+            <table class="table table-hover table-striped">
+              <thead>
+                <tr>
+                  <th>Tamanho</th>
+                  <th>Valor</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>P</td>
+                  <td>R$100.00</td>
+                </tr>
+                <tr>
+                  <td>M</td>
+                  <td>R$200.00</td>
+                </tr>
+                <tr>
+                  <td>G</td>
+                  <td>R$300.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
