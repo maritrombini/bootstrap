@@ -13,8 +13,61 @@ li a {
   margin: 20px;
 }
 
+#navegacao li a {
+  color: black;
+}
+
 #kids {
   border-radius: 10px;
+}
+
+#cadastro {
+  width: fit-content;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#inscricao {
+  margin-left: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+#inscricao:hover {
+  color: rgb(224, 167, 10);
+}
+
+#agendar a {
+  text-decoration: none;
+  color: white;
+}
+
+#carousel {
+  width: 65%;
+  margin: auto;
+  padding: 15px;
+}
+
+#promocionais {
+  margin-left: -13px;
+}
+
+#formulario {
+  text-align: center;
+}
+
+.cursos {
+  background-color: rgb(250, 246, 246);
+}
+
+.card {
+  width: 32%;
+  float: left;
+  margin: 5px;
+}
+
+.cadastrando {
+  align-items: left;
 }
 
 section {
@@ -26,14 +79,4 @@ section {
 input,
 textarea {
   margin-bottom: 1rem;
-}
-
-.cursos {
-  background-color: rgb(250, 246, 246);
-}
-
-.card {
-  width: 32%;
-  float: left;
-  margin: 5px;
 }

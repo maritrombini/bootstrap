@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/custom.css" />
+    <link rel="stylesheet" href="./style/custom-form.css" />
+    <title>Conservatório Right Music - Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img
+              class="logo"
+              src="./images/1.jpg"
+              width="130"
+              height="130"
+              alt=""
+            />
+          </div>
+          <div class="col" id="navegacao">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link btn-warning active" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-warning" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-warning" href="#produtos">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-warning" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="cadastrando">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-7 col-sm-7">
+            <form class="form">
+              <div class="col-md-7 col-sm-7" id="formulario">
+                <h2>Cadastro</h2>
+                <p>Cadastre-se para participar de nossas promoções!</p>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <div class="input-group">
+                    <label for="nome" class="col-form-label col-form-label-sm"
+                      >Digite seu Nome Completo</label
+                    >
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="nome"
+                      id="nome"
+                      placeholder="Digite seu nome"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="input-group">
+                    <label for="email" class="col-form-label col-form-label-sm"  
+                      >Digite seu email</label
+                    >
+                    <input 
+                      class="form-control nome"
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Digite seu e-mail"
+                      required
+                      
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <label for="endereco" class="col-form-label col-form-label-sm col-md-6 col-sm-6"
+                    >Endereço Completo</label
+                  >
+                  <input
+                    type="text"
+                    id="endereco"
+                    class="form-control"
+                    placeholder="Endereço completo"
+                  />
+                </div>
+              </div>
+              <div class="row " >
+                <div class="col col-md-4 col-sm-4">
+                  <label for="complemento" class="col-form-label col-form-label-sm "
+                    >Complemento</label
+                  >
+                  <input
+                    type="text"
+                    name="complemento"
+                    id="complemento"
+                    class="form-control"
+                  />
+                </div>
+                
+                  <div class="col col col-md-4 col-sm-4">
+                    <label for="bairro" class="col-form-label col-form-label-sm"
+                      >Bairro</label
+                    >
+                    <input
+                      type="text"
+                      name="bairro"
+                      id="bairro"
+                      class="form-control"
+                    />
+                  </div>
+                  
+                    <div class="col col col-md-4 col-sm-4">
+                      <label for="cidade" class="col-form-label col-form-label-sm"
+                        >Cidade</label
+                      >
+                      <input
+                        type="text"
+                        name="cidade"
+                        id="cidade"
+                        class="form-control"
+                      />
+                    </div>
+
+              
+                
+                <div class="row">
+                  <div class="col col-md-4 col-sm-4">
+                    <label for="estado" class="col-form-label col-form-label-sm "
+                      >Estado</label
+                    >
+                    <select name="estado" id="estado" class="form-control ">
+                      <option value="">Selecione um Estado</option>
+                      <option value="sp">SP</option>
+                      <option value="rj">RJ</option>
+                      <option value="sc">SC</option>
+                    </select>
+                  </div>
+                <div class="col col-md-3 col-sm-3  ">
+                  <label for="cep" class="col-form-label col-2-form-label-sm  "
+                    >CEP</label
+                  >
+                  <input type="text" name="cep" id="cep" class="form-control" />
+                </div>
+              </div>
+            </div>
+                <div class="row">
+                  <div class="col col col-md-4 col-sm-4">
+                    <label for="cidade" class="col-form-label col-form-label-sm"
+                      >Telefone</label
+                    >
+                    <input
+                      type="text"
+                      name="cidade"
+                      id="cidade"
+                      class="form-control"
+                    />
+                  </div>
+                  
+                    <div class="col col col-md-4 col-sm-4">
+                      <label for="celular" class="col-form-label col-form-label-sm"
+                        >Celular</label
+                      >
+                      <input
+                        type="text"
+                        name="celular"
+                        id="celular"
+                        class="form-control"
+                      />
+                    </div>
+                
+
+              <div class="row">
+                <div class="col">
+                  <div class="input-group">
+                    <label for="info" class="col-form-label col-form-label-sm"
+                      >Informações</label
+                    >
+                    <textarea
+                      class="form-control"
+                      name="informacoes"
+                      id="info"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      name="promocionais"
+                      id="promocionais"
+                    />
+                    <label
+                      for="promocionais"
+                      class="form-check-label col-form-label col-form-label-sm"
+                      >Aceito receber mensagens promocionais</label
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-secondary" id="cadastro">Cadastrar</button>
+            </form>
+
+            <p>
+              <a
+                href="#cadastro"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-1"
+                id="inscricao"
+                >Inscreva-se
+              </a>
+              para nossas próximas turmas
+            </p>
+            <!--paragrafo-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Inscrever-me na lista</h5>
+            <button
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h6>
+              Preencha os campos para se inscrever em nossa fila de espera!
+            </h6>
+
+            <form class="form-inline">
+              <div class="row">
+                <div class="form-group col-4">
+                  <input
+                    type="text"
+                    class="form-control form-control-sm mb-2"
+                    name="nome"
+                    placeholder="Nome"
+                  />
+                </div>
+                <div class="form-group col-4">
+                  <input
+                    type="text"
+                    class="form-control mb-2 form-control-sm"
+                    name="e-mail"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+                <div class="form-group col-4">
+                  <button type="submit" class="btn btn-warning btn-sm">
+                    Entrar para a fila
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary mb-2"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

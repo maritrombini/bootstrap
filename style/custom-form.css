@@ -1,0 +1,17 @@
+textarea.form-control {
+  width: 100% !important;
+}
+
+#nome,
+#email {
+  width: 100%;
+}
+
+#formulario h2,
+p {
+  text-align: left;
+}
+
+#cadastrando {
+  margin-left: 35%;
+}

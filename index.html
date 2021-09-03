@@ -16,7 +16,7 @@
             <img class="logo" src="./images/1.jpg" width="130" height="130" alt="">
            
           </div>
-          <div class="col">
+          <div class="col" id="navegacao">
             <ul class="nav justify-content-end">
               <li class="nav-item">
                 <a class="nav-link btn-warning active" href="">Home</a>
@@ -35,6 +35,58 @@
         </div>
       </div>
     </header>
+
+
+     
+    <div class="container" >
+        
+      <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner center-block" id="carousel">
+              <div class="carousel-item active">
+                  <div class="ratio ratio-21x9">
+                      <img src="./images/orquestra.jpg" class="d-block w-100 " alt="...">
+                  </div>    
+              </div>
+              <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="./images/orquestra3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption">
+               </div>
+          </div>
+              <div class="carousel-item">
+                  <div class="ratio ratio-21x9">
+                      <img src="./images/orquestra7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-caption">                     
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="./images/orquestra4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption">
+               </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ratio ratio-21x9">
+                <img src="./images/orquestra5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption">
+           </div>
+      </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      
+  </div>
+  
 
     <section id="sobre">
       <div class="container">
@@ -58,7 +110,7 @@
               sustentabilidade social, cultural e econômica.
              
             </p>
-            <a class="btn  btn-warning">Saiba mais</a>
+            <a class="btn  btn-warning" href="#produtos" >Saiba mais</a>
           </div>
           <div class="col-md-5 col-sm-12">
             <img id="kids"
@@ -106,7 +158,7 @@
               <div class="card-body">
                 <h5 class="card-title">Piano Erudito</h5>
                 <p class="card-text">
-                  O programa de Piano é dividido em duas grandes áreas: erudito e popular.O programa de piano erudito se estabelece desde o início nos valores fundamentais da partitura espelhados na prática do instrumento.No popular também se estabelece uso da partitura, mas com menos protagonismo já que a Cifra possui muita importância para a consolidação da execução livre. 
+                  O programa de Piano é dividido em duas grandes áreas: erudito e popular.O programa de piano erudito se estabelece desde o início nos valores fundamentais da partitura espelhados na prática do instrumento. No popular se estabelece uso da partitura e da Cifra que possui muita importância para a consolidação da execução livre. 
                 </p>
                 <a class="btn btn-warning" data-bs-toggle="modal"
                 data-bs-target="#modal-2">Ver Curso</a>
@@ -165,8 +217,8 @@
                 <textarea class="form-control" name="" rows="5"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-secondary">
-                Agendar
+              <button type="submit" class="btn btn-secondary" id="agendar">
+               <a href="./cadastro.html">Agendar</a> 
               </button>
             </form>
           </div>
@@ -323,5 +375,12 @@
     </div>
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      var myCarousel = document.querySelector('#carouselExampleFade')
+      var carousel = new bootstrap.Carousel(myCarousel, {
+          pause: false,
+          interval: 3000
+      })
+  </script>
   </body>
 </html>
